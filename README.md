@@ -1,4 +1,4 @@
-# Trusty Trustee Travel Pals
+# Nifty-Text-Editor
 
 ## GitHub Repository & Deployed Application
 * https://github.com/ila0406/Nifty-Text-Editor
