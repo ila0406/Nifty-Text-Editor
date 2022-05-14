@@ -17,22 +17,27 @@
 * [Screenshots](#screenshots) 
 
 ## <a id='description' href='#readme-badges'><img id='usage' src='https://i.imgur.com/LJ1S6wB.png' style='height: 40px'></a>
-This App was built with the intention of being a safety tool for your travel needs. It will pull relevent information for your destination to make your travel a safe and fun trip. If you search for any city in the countries we provided you will be met with a list that includes: * Airports near your destination * Covid cases * Local weather *Country Safety Rating for Travel Previous searches are saved within the user's profile which is behind a login. Safety information for users home location is also saved in profile so they have a comparision when planning their travels. 
+This text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+
+To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
 ## <a id='technolgies-used' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ykBU02c.png' style='height: 40px'></a>
-* Javascript * HTML * CSS * Tailwinds * Node JS * bcrypt * connect-session-sequelize * country-state-city * dotenv * express * express-handlebars * express-session * mysql2 * sequelize * eslint * eslint-config-prettier * prettier
+* Javascript 
+* PWA 
+* express
 
 ## <a id='installation-instructions' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ucpcjWg.png' style='height: 40px'></a>
-1) Run > npm i to install node packages 2) Run mysql commands to create and seed databases 3)Add env file with DB_USER='' DB_PW='' DB_NAME='travelTrusteeTravelPals_db' 4)Run > npm start to begin program
+1) Run > npm i to install node packages 
+2) Run > npm start to begin program
 
 ## <a id='usage-info' href='#readme-badges'><img id='usage' src='https://i.imgur.com/erC9rgJ.png' style='height: 40px'></a>
-1) Navigate to db folder in terminal 2) Login to mysql with `mysql -u root -p` 3) Run `SOURCE schema.sql` 4) `quit` mysql server 5) Run `npm run seed` 6) Run `npm start`
+1) Run `npm start`
 
 ## <a id='contribution-guide' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ZtAN77x.png' style='height: 35px'></a>
-Framework code for MVC was taken from previous class activity. Verision 1 of code was refractored from https://github.com/ila0406/Travel-Trustees Received advice and instruction from University of Denver bootcamp Instructors/TAs. Main contributors Josh Tibbitts, Delilah Haas and David Faidley
+Framework was provided as part of the homework assigment, used mini project from 19-28 as a reference. 
 
 ## <a id='instructions-for-testing'  href='#readme-badges'><img id='usage' src='https://i.imgur.com/7jEx40O.png' style='height: 40px'></a>
-* Routes can be tested with Insomonia * DB can be tested by running queries directly against seeded DB
+* 
 
 ## <a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/WaoO6zA.png' style='height: 40px'></a>
 Mockup<br>
