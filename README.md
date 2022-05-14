@@ -40,8 +40,9 @@ Framework was provided as part of the homework assigment, used mini project from
 * 
 
 ## <a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/WaoO6zA.png' style='height: 40px'></a>
-Mockup<br>
-<a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/.png' style='height: 400px'></a>
+<img src="./assets/images/JATE1.png" width="500">
+
+<img src="./assets/images/JATE2.png" width="500">
 
 ## <a id='questions' href='#readme-badges'><img id='usage' src='https://imgur.com/Z3i069z.png' style='height: 40px'></a>
 If you have questions, you can either open a issue in my Github repository <br>
