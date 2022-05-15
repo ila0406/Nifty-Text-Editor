@@ -17,27 +17,30 @@
 * [Screenshots](#screenshots) 
 
 ## <a id='description' href='#readme-badges'><img id='usage' src='https://i.imgur.com/LJ1S6wB.png' style='height: 40px'></a>
-This text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
+This text editor runs in the browser but can be installed locally as a PWA.
 ## <a id='technolgies-used' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ykBU02c.png' style='height: 40px'></a>
 * Javascript 
+* CSS
 * PWA 
-* express
+* Express JS
+* Node JS
+* concurrently
+* Babel
+* Webpack
 
 ## <a id='installation-instructions' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ucpcjWg.png' style='height: 40px'></a>
-1) Run > npm i to install node packages 
-2) Run > npm start to begin program
+1) Run > `npm i` to install node packages 
+2) Run > `npm run build` to run build script
+3) Run > `npm start` to begin program
 
 ## <a id='usage-info' href='#readme-badges'><img id='usage' src='https://i.imgur.com/erC9rgJ.png' style='height: 40px'></a>
-1) Run `npm start`
+This text editor allows you to type text into an editor. Anything you've typed will be saved regardless of closing the app. You can click the install button at the top left in order to install the app locally. Installing locally will allow you to use the Text Editor.
 
 ## <a id='contribution-guide' href='#readme-badges'><img id='usage' src='https://i.imgur.com/ZtAN77x.png' style='height: 35px'></a>
 Framework was provided as part of the homework assigment, used mini project from 19-28 as a reference. 
 
 ## <a id='instructions-for-testing'  href='#readme-badges'><img id='usage' src='https://i.imgur.com/7jEx40O.png' style='height: 40px'></a>
-* 
+No tests provided, so just install and test yourself
 
 ## <a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/WaoO6zA.png' style='height: 40px'></a>
 <img src="./assets/images/JATE1.png" width="500">
