@@ -47,6 +47,18 @@ No tests provided, so just install and test yourself
 
 <img src="./assets/images/JATE2.png" width="500">
 
+Applications manifest.json file
+
+<img src="./assets/images/manifest.png" width="500">
+
+Shows the application's registered service worker
+
+<img src="./assets/images/serviceworker.png" width="500">
+
+Shows the applications IndexedDB storage
+
+<img src="./assets/images/IndexedDB.png" width="500">
+
 ## <a id='questions' href='#readme-badges'><img id='usage' src='https://imgur.com/Z3i069z.png' style='height: 40px'></a>
 If you have questions, you can either open a issue in my Github repository <br>
 GitHub: <https://github.com/ila0406> <br>
